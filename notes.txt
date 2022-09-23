@@ -1,0 +1,7 @@
+1. create a db.json file
+2. install axios --> npm i axios and import it
+3. axios is used in place of fetch
+4. fetch(`url`) ----------- axios.get(`url`) and remove res.json()
+5. For pagination --> check json-server portal and search for _page
+6. /todos?_page=1 ----> to display 10 entries in one page
+7. /todos?_page=1&_limit=5  ------> to limit or control the number of entries in a page
